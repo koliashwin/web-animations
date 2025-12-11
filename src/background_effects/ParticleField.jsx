@@ -31,7 +31,7 @@ const ParticleField = () => {
                 if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
                 if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
                 
-                console.log(this.vx, this.vy)
+                // console.log(this.vx, this.vy)
             }
 
             draw() {
